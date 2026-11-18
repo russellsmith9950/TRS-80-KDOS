@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="Current">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -76,17 +76,8 @@
     <None Include="SYS\settings.cfg" />
     <None Include="build.ps1" />
     <None Include="BUILDING.txt" />
-    <None Include="tests\test_console.py" />
-    <None Include="tests\test_basic_io.py" />
-    <None Include="tests\IOCHECK.txt" />
-    <None Include="tests\SIMPLEIO.txt" />
     <None Include="SYS\test\IOCHECK.BAS" />
     <None Include="SYS\test\SIMPLEIO.BAS" />
-    <None Include="tests\test_basic_commands.py" />
-    <None Include="tests\test_basic_combined.py" />
-    <None Include="tests\CMDCHECK.txt" />
-    <None Include="tests\requirements.txt" />
-    <None Include="tests\README.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)/Microsoft.Cpp.targets" />
 </Project>
